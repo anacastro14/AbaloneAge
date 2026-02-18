@@ -1,5 +1,5 @@
-# MACHINE LEARNING SUMMATIVE
-#Modeling abalone age
+
+#MODELING ABOLONE AGE
 
 library(dplyr)
 library(ggplot2)
@@ -484,6 +484,7 @@ ggplot(metrics, aes(x = Model, y = Rsquared, fill = Model)) +
   labs(title = "Rsquared Comparison", y = "Rsquared") +
   theme_minimal()+
   scale_fill_brewer(palette="Set2")
+
 
 
 
